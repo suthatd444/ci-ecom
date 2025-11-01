@@ -1,0 +1,137 @@
+
+.csr_container {
+    /*max-width: 86.4%;*/
+    /*margin: 0 auto;*/
+}
+
+.csr_main_img {
+    width: 100%;
+}
+
+.csr_main_img img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+.csr_nav_a_tag {
+    margin-top: 30px;
+}
+
+.csr_nav_a_tag a {
+    text-decoration: none;
+    color: #111111;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Poppins;
+    text-transform: lowercase;
+
+}
+
+.csr_nav_a_tag a:hover {
+    color: #3D3D3D;
+}
+
+.csr_box 
+{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* span {
+    position: absolute;
+    z-index: 999;
+    color: #FFFFFF;
+    bottom: 17%;
+    left: 7%;
+    font-size: 27px;
+} */
+.csr_box1 img {
+    /* width: 95%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    vertical-align: middle;
+    border-radius: 40px; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.csr_box1 {
+    position: relative;
+}
+
+
+@media only screen and (max-width: 1399px) {
+.csr_box1 .imgText {
+top: 60% !important;
+}
+}
+@media only screen and (max-width: 999px) {
+    .csr_box 
+{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* span {
+   
+    bottom: 19%;
+    font-size: 20px;
+    line-height: 25px;
+} */
+/* .csr_box1 img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+.csr_nav_a_tag a {
+    font-size: 22px;
+}
+
+  }
+
+  @media only screen and (max-width: 767px) {
+    .csr_box 
+{
+    display: unset;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* span {
+    bottom: 19%;
+    font-size: 30px;
+    line-height: 40px;
+} */
+/* .csr_box1 img {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 100%;
+} */
+.csr_nav_a_tag a {
+    font-size: 22px;
+}
+/* section.contact_sec {
+    margin-top: 30px;
+} */
+
+  }
+
+  @media only screen and (max-width: 575px) {
+
+    /* span {
+        bottom: 19%;
+        font-size: 23px;
+        line-height: 30px;
+    } */
+    .csr_nav_a_tag a {
+        font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+
+    /* span {
+        bottom: 23%;
+        font-size: 16px;
+        line-height: 20px;
+    } */
+
+  }

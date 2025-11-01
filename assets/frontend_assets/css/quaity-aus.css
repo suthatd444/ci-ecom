@@ -1,0 +1,402 @@
+/* 
+.qualityimg_sec {
+  margin-top: 25px;
+} */
+
+.quality_icon_box {
+  border: 0.3px solid rgba(17, 17, 17, 0.6);
+  border-radius: 40px;
+}
+
+.breadcrumb {
+  margin: 49px 0px 80px;
+}
+
+.breadcrumb-item {
+  text-transform: uppercase;
+   font-size: 20px;
+  line-height: 30px;
+}
+
+.breadcrumb-item a {
+  color: #3d3d3d;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.breadcrumb-item.active {
+  color: #111111;
+  font-weight: 500;
+}
+
+.quality_para {
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 300;
+  margin-bottom: 27px;
+  color: #111111;
+}
+
+.quality_title1 {
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 71px;
+}
+
+.quality_titlemain {
+  color: #000000;
+  font-size: 55px;
+  line-height: 71px;
+  font-weight: 400;
+  margin-bottom: 42px;
+}
+
+.ins_test_parab {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 28px;
+}
+
+.ins_test_paral {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+  color: #000000;
+  margin-bottom: 70px;
+}
+
+section.instesticon_sec {
+  margin-top: 175px;
+  padding-bottom: 99px;
+}
+
+.sec_title {
+  font-size: 55px;
+  line-height: 82px;
+  font-weight: 300;
+  color: #111111;
+  margin-bottom: 60px;
+}
+
+.quality_icon_box_1 {
+  border: 0.3px solid rgba(17, 17, 17, 0.6);
+  border-radius: 40px;
+  padding: 42px 46px 0px 38px;
+  min-height: 300px;
+}
+
+.quality_icon_round_1{
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  background-color: #111111;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 49px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* .quality_icon_round:hover {
+  background-color: #3b42f8;
+} */
+
+.quality_icon_para {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  margin-bottom: 0px;
+  color: #111111;
+}
+.quality_icon_box_1:hover .quality_icon_round_1 {
+  background-color:#3b42f8!important ;
+  filter: url(../img/blue.png);
+}
+
+/* media */
+@media only screen and (max-width: 1650px) and (min-width: 1400px) {
+  .quality_icon_box_1 {
+    min-height: 400px;
+  }
+
+  .quality_title1 {
+    font-size: 34px;
+    line-height: 38px;
+  }
+
+  .quality_titlemain {
+    color: #000000;
+    font-size: 50px;
+  }
+
+  .sec_title {
+    font-size: 50px;
+    line-height: 78px;
+  }
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 1200px) {
+  .quality_icon_para {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .quality_icon_round_1 {
+    margin-bottom: 22px;
+  }
+
+  .quality_icon_box_1 {
+    padding: 38px 30px 0px 38px;
+    min-height: 350px;
+  }
+
+  .quality_icon_box_1 {
+    min-height: 390px;
+  }
+
+  .quality_title1 {
+    font-size: 31px;
+    line-height: 38px;
+    margin-bottom: 62px;
+  }
+
+  .quality_titlemain {
+    color: #000000;
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .sec_title {
+    font-size: 48px;
+    line-height: 70px;
+  }
+
+  .ins_test_parab {
+    font-size: 22px;
+    line-height: 36px;
+  }
+
+  .ins_test_paral {
+    font-size: 22px;
+    line-height: 36px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+
+  .quality_icon_box_1 {
+    min-height: 355px;
+    padding: 40px 25px 0px 38px;
+  }
+
+  .quality_icon_round_1 {
+    margin-bottom: 30px;
+  }
+
+  .quality_para {
+    font-size: 23px;
+    line-height: 38px;
+  }
+
+  .quality_title1 {
+    font-size: 34px;
+    line-height: 47px;
+    margin-bottom: 40px;
+  }
+
+  .quality_titlemain {
+    font-size: 48px;
+    line-height: 62px;
+    margin-bottom: 30px;
+  }
+
+  .ins_test_parab {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 24px;
+  }
+
+  .ins_test_paral {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 50px;
+  }
+
+  section.instesticon_sec {
+    margin-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .sec_title {
+    font-size: 38px;
+    line-height: 64px;
+    margin-bottom: 50px;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .breadcrumb {
+    margin: 49px 0px 55px;
+  }
+
+  .quality_para {
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  .quality_title1 {
+    font-size: 30px;
+    line-height: 44px;
+    margin-bottom: 35px;
+  }
+
+  .quality_titlemain {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 25px;
+  }
+
+  .sec_title {
+    font-size: 30px;
+    line-height: 44px;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .quality_icon_box_1 {
+    min-height: 300px;
+    padding: 40px 25px 0px 38px;
+  }
+
+  .breadcrumb-item {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .quality_icon_box_1 {
+    min-height: unset;
+    padding-bottom: 40px;
+  }
+
+  section.instesticon_sec {
+    margin-top: 30px;
+    padding-bottom: 70px;
+  }
+
+}
+
+
+@media only screen and (max-width: 575px) {
+  .breadcrumb {
+    margin: 30px 0px 45px;
+  }
+
+  .quality_para {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .quality_title1 {
+    font-size: 23px;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
+
+  .quality_titlemain {
+    font-size: 34px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+
+  .ins_test_parab {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 24px;
+  }
+
+  .ins_test_paral {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 24px;
+  }
+
+  .sec_title {
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 40px;
+  }
+
+  .breadcrumb-item {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+
+  .quality_icon_para {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    color: #111111;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .breadcrumb {
+    margin: 30px 0px 45px;
+  }
+
+  .quality_para {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .quality_title1 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+  }
+
+  .quality_titlemain {
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 22px;
+  }
+
+  .ins_test_parab {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+
+  .ins_test_paral {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+
+  .sec_title {
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 20px;
+  }
+
+  .breadcrumb-item {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
